@@ -19,9 +19,9 @@ import SeeMore from 'react-responsive-see-more'
 <SeeMore
     items={renderItems()}
     itemWidth={170}
-    seeMoreButtonClassName="items-with-pictures--item--content"
-    seeMoreURL={seeMoreURL}
-    seeMoreButtonnText={getString('SEE_ALL_RESULTS')}
+    seeMoreButtonClassName="seeMoreButtonClassName"
+    seeMoreURL='seeMoreURL'
+    seeMoreButtonnText='seeMoreButtonnText'
 />
 ```
 

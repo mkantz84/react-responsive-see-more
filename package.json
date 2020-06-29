@@ -1,6 +1,6 @@
 {
   "name": "react-responsive-see-more",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "this package will recieve a list (array) of components and show them responcively in your wrapper",
   "main": "dist/index.js",
   "scripts": {
