@@ -17,14 +17,14 @@ interface IProps {
   seeMoreURL?: string;
   className?: string;
   seeMoreButtonClassName?: string;
-  seeMoreButtonnText?: string;
+  seeMoreButtonText?: string;
 }
 
 const App: React.FC<IProps> = ({
   items,
   itemWidth,
   seeMoreURL = "",
-  seeMoreButtonnText = "",
+  seeMoreButtonText = "",
   className = "",
   seeMoreButtonClassName = ""
 }) => {
@@ -59,7 +59,7 @@ const App: React.FC<IProps> = ({
         to={seeMoreURL}
         className={`see-more--button ${seeMoreButtonClassName}`}
       >
-        {seeMoreButtonnText || "See more"}
+        {seeMoreButtonText || "See more"}
       </Link>
     );
   };
