@@ -27,14 +27,14 @@ import SeeMore from 'react-responsive-see-more'
 
 ## Props
 
-| Prop                   |        Type         |                                                                       Description |
-| ---------------------- | :-----------------: | --------------------------------------------------------------------------------: |
-| items                  | `React.ReactNode[]` |                                         Array of components that will be rendered |
+| Prop                   |        Type         | Description                                                                       |
+| ---------------------- | :-----------------: | :-------------------------------------------------------------------------------- |
+| items                  | `React.ReactNode[]` | Array of components that will be rendered                                         |
 | itemWidth              |      `number`       | The width of one item in the components list. This is for responsive calculations |
 | seeMoreURL             | `string` (Optional) | A URL for the see more button. If you wont pass this prop, the button wont render |
-| className              | `string` (Optional) |                                                Class name for the package wrapper |
-| seeMoreButtonClassName | `string` (Optional) |                                        Class name for the see more button wrapper |
-| seeMoreButtonText      | `string` (Optional) |                                                      Text for the see more button |
+| className              | `string` (Optional) | Class name for the package wrapper                                                |
+| seeMoreButtonClassName | `string` (Optional) | Class name for the see more button wrapper                                        |
+| seeMoreButtonText      | `string` (Optional) | Text for the see more button                                                      |
 
 ## License
 
